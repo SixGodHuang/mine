@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>syy</title>
+	<link rel="stylesheet" href="theme/style/bootstrap.css" />
+	<script src="http://cdn.bootcss.com/angular.js/1.6.2/angular.js"></script>
+	<!--<script data-main="scripts/main.js" src="theme/js/require.js"></script>-->
+</head>
+<body ng-app="app">
+
+
+	<div>
+		
+	</div>
+	
+	<hz-select></hz-select>
+	
+
+
+	
+	<script type="text/javascript">
+		var app = angular.module("app", []);
+
+		app.directive('hzSelect', function() {
+		    return {
+		        restrict: 'E',
+		        template: '<div>Hi there</div>',
+		        replace: true
+		    };
+		});
+	</script>
+</body>
+</html>
